@@ -1,0 +1,80 @@
+*{
+  box-sizing : border-box;
+  /*outline: 1px solid rgba(255, 0, 0, 0.2);*/
+}
+img{
+  display: block;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+body {
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+}
+.app-container {
+     background-color: #DC514F;
+     margin: 0px 0px;
+     padding: 0 10px;
+}
+nav {
+     margin: 0px 0px;
+}
+.header {
+     display: inline-block;
+}
+.container {
+     margin-top: 0px;
+     margin-left: auto;
+     padding-left: 0px;
+}
+.h1-title {
+     color: #fff;
+     font-size: 60px;
+     font-weight: 300;
+     margin-top: 0px;
+     padding-top: 50px;
+}
+.description {
+     color: #fff;
+     font-size: 16px;
+}
+.form-control {
+     width: 80%;
+}
+hr {
+     height: .5px;
+     color: #b73c3a;
+     background: #b73c3a;
+     font-size: 0;
+     border: 0;
+}
+.logout-btn {
+     margin-top: 10px;
+     margin-right: 25px;
+}
+.main-pg-btn {
+     padding-bottom: 50px;
+     display: flex;
+    justify-content: space-around;
+    margin-right: 50%;
+}
+
+.col-lg-10 {
+     border: 1px solid #e3e3e3;
+}
+footer {
+     background-color: #e3e3e3;
+}
+.form-group {
+     margin-top: 20px;
+     display: grid;
+}
+.message-area {
+     width: 80%;
+     margin-bottom: 20px;
+     display: block;
+}
